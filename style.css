@@ -1,0 +1,417 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family: 'Exo 2', sans-serif;
+	/*link="#000" vlink="#000" alink="#FFF"*/
+}
+
+a:link{
+	color:#000;
+}
+
+a:visited{
+	color:#000;
+}
+
+a:active{
+	color:#fff;
+}
+
+body{
+	background-image: url("img/gta.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+
+ul li {
+	list-style:none;
+	display:inline;
+	text-decoration:none;
+} 
+
+ul li a{
+	text-decoration:none;
+} 
+
+#omot{
+	width:1366px;
+	border:1px solid #008889;
+	margin:auto;
+	background-color:#18A1D2;
+}
+#gornji{
+	background-color:#18A1D2;
+}
+#sadrzaj{
+	background-color:#18A1D2;
+}
+#sadrzaj h1{
+	text-align:center;
+}
+#formular{
+	background-color: #094D65;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+#formular h2,h3{
+	text-align:center;
+}
+#forma{
+	margin-left:280px;
+	margin-top:20px;
+}
+#ime{
+	width:400px;
+	height:50px;
+	border:1px solid #000;
+	border-radius:15px;
+	font-size:20px;
+	padding-left:5px;
+}
+#prezime{
+	width:400px;
+	height:50px;
+	border:1px solid #000;
+	border-radius:15px;
+	font-size:20px;
+	padding-left:5px;
+}
+#email{
+	height:50px;
+	border:1px solid #000;
+	border-radius:15px;
+	font-size:20px;
+	margin-top:5px;
+	width:600px;
+	padding-left:5px;
+}
+#izborKategorija{
+	height:50px;
+	border:1px solid #000;
+	border-radius:15px;
+	font-size:20px;
+	margin-top:5px;
+	width:700px;
+	padding-left:5px;
+}
+label{
+	font-size:20px;
+}
+.dgm{
+	margin-top:10px;
+	margin-bottom:30px;
+	width:100px;
+	height:45px;
+	border:1px solid #000; 
+	border-radius:10px;
+	font-size:20px;
+}
+#logo{
+	/*height:150px;*/
+	background-color:#18A1D2;
+}
+#logo img{
+	display: block;
+	margin:auto;
+}
+#preidm{
+	height:50px;
+}
+/*
+#pretraga{
+	width:1000px;
+	height:50px;
+	float:left;
+	/*border: 1px solid #000000;*/
+}
+*/
+#drustvenemreze{
+	width:360px;
+	height:50px;
+	float:right; 
+}
+#meni{
+	height:75px;
+	margin-top:20px;
+}
+.meniLista a{
+	font-size:46px;
+	padding-left:46px;
+	padding-right:46px;
+	border:1px solid #000;
+	border-radius:15px;
+	background-color:#094D65;
+	
+}
+.kategorije{
+	font-size:46px;
+	padding-left:46px;
+	padding-right:46px;
+	border:1px solid #000;
+	border-radius:15px;
+	background-color:#094D65;
+}
+	
+.prviMeniLista a{
+	background-color:#18A1D2;
+}	
+
+.meniLista a:hover{
+	background-color:#18A1D2;
+}
+/*************************/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #094D65;
+    min-width: 215px;
+    font-size:25px;
+	padding-left:41px;
+	padding-right:42px;
+    z-index: 1;
+	border-radius:12px;
+	border:1px solid #000;
+}
+.akcione:hover{
+	background-color:#18A1D2;
+}
+.avantura{
+	top:86px;
+}
+.avantura:hover{
+	background-color:#18A1D2;
+}
+.sport{
+	top:117px;
+}
+.sport:hover{
+	background-color:#18A1D2;
+}
+.rpg{
+	top:148px;
+}
+.rpg:hover{
+	background-color:#18A1D2;
+}
+.strategije{
+	top:179px;
+}
+.strategije:hover{
+	background-color:#18A1D2;
+}
+.horror{
+	top:210px;
+}
+.horror:hover{
+	background-color:#18A1D2;
+}
+.trke{
+	top:241px;
+}
+.trke:hover{
+	background-color:#18A1D2;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#slajdovi{
+	height:250px;
+}
+
+#slajdovi img{
+	display:block;
+	margin:auto;
+	border:3px solid #000;
+	border-radius:15px;
+}
+#pocetna{
+	margin-top:50px;
+}
+
+#pocetna h1{
+	text-align:center;
+}
+
+#uvod{
+	margin:40px;
+	border: 1px solid #000000;
+	border-radius:50px;
+	float:left; 
+	background-color:#094D65;
+	padding-bottom:40px;
+}
+#uvod p{
+	font-size:35px;
+	text-align:center;
+	padding-top:30px;
+	
+}
+
+#preporuka{
+	/*margin-top: 70px;*/
+}
+
+#Prep h2{
+	font-size:45px;
+	text-align:center;
+}
+
+/*#preporuka p {
+	font-size:45px;
+	text-align:center;
+}
+*/
+.red{
+	height:500px;
+	/*width:1360px;*/
+	/*border:1px solid #000000;*/
+	margin-top:40px;
+}
+.poslednjiRed{
+	margin-bottom:40px;
+}
+
+.igra{
+	height:500px;
+	width:370px;
+	border: 1px solid #000000;
+	border-radius:15px;
+	float:left;
+	margin-left:122px;
+	position:relative;
+	/*background-color:#094D65;*/
+}
+.prva{
+	height:500px;
+	width:370px;
+	border: 1px solid #000000;
+	border-radius:15px;
+	float:left;
+	margin-left:0px;
+	position:relative;
+	/*background-color:#094D65;*/
+}
+.prva img, .igra img{
+	border-radius:15px;
+}
+
+.prva , .igra:hover .prelaz{
+	opacity:0.9;
+}
+.text{
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:20px;
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+}
+.prelaz{
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #094D65;
+	border-radius:15px;
+}
+
+.cleaner{
+	clear:both;
+}
+.dm{
+	font-size:50px;
+	float:right;
+	padding-right:70px;
+}
+/******Katekorije Stil *********/
+#kategorijaOmot{
+	background-color:#18A1D2;
+}
+#kategorijaOmot h1{
+	text-align:center;
+}
+
+.duziOpis{
+	height:500px;
+	border:1px solid #000;
+	float:right;
+	border-radius:15px;
+	width:980px;
+	background-color:#094D65;
+}
+.duziOpis p{
+	font-size:18px;
+	text-align:justify;
+}
+.levoK{
+	width:50%;
+	margin-top:15px;
+	margin-left:15px;
+	float:left;
+}
+.desnoK{
+	margin-top:15px;
+	margin-right:15px;
+	float:right;
+	width:45%;
+}
+.desnoK p{
+	font-size:18px;
+}
+details{
+	margin-left:20px;
+	background-color:#094D65;
+	border-radius:10px;
+	float:left;
+}
+.skrozLevo{
+	float:left;
+}
+.skrozDesno{
+	float:right;
+	
+}
+.frame{
+	padding:10px;
+	background:#000;
+	border-radius: 20px;
+	width:400px;
+	height:270px;
+	overflow:hidden;
+	float:right;
+}
+
+#galerijaOmot{
+	width:inherit;
+	background-color:#18A1D2;
+}
+#galerijaOmot h1{
+	text-align:center;
+	margin-bottom:15px;
+}
+.slikaiOpis{
+	width:370px;
+	float:left;
+}
+.opisSlike h2{
+	text-align:center;
+}
+.md{
+	padding-right:20px;
+}
+.ml{
+	padding-left:20px;
+}
+
+
+
